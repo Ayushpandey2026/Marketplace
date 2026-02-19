@@ -77,7 +77,7 @@ const ProductDetail = () => {
     );
   }
 
-  return (
+  return(
     <motion.div className="detail-container" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <button className="btn-outline back-btn" onClick={() => navigate(-1)}>
         <FiArrowLeft /> Back to Products

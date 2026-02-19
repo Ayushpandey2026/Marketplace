@@ -58,7 +58,7 @@ const Register = () => {
               />
             </div>
           </div>
-
+            // form
           <div className="form-group">
             <label htmlFor="email">Email Address</label>
             <div className="input-with-icon">
